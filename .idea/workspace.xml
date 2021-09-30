@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b23a517-5e72-459e-a777-ca1bb3cf71ca" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ckeditor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ckeditor.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1yHRa5XFywTG3v7fjG2oZKxZX4U" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,6 +72,8 @@
       <workItem from="1631984209945" duration="518000" />
       <workItem from="1631984776340" duration="2974000" />
       <workItem from="1631988550714" duration="1127000" />
+      <workItem from="1631991414539" duration="6260000" />
+      <workItem from="1633025766594" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1631907279481</created>
@@ -126,7 +131,21 @@
       <option name="project" value="LOCAL" />
       <updated>1631987028863</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix(ckeditor): fix bug with remove emojis and ckFinder plugins">
+      <created>1631995930368</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1631995930368</updated>
+    </task>
+    <task id="LOCAL-00010" summary="fix(ckeditor): sort plugins">
+      <created>1631996972122</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1631996972122</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,21 +173,27 @@
     <MESSAGE value="add new fontSize 23" />
     <MESSAGE value="build ckeditor5" />
     <MESSAGE value="delete all package except heading" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete all package except heading" />
+    <MESSAGE value="fix(ckeditor): fix bug with remove emojis and ckFinder plugins" />
+    <MESSAGE value="fix(ckeditor): sort plugins" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix(ckeditor): sort plugins" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1631908802519">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1631908802519" />
+    <state x="407" y="179" key="MultipleFileMergeDialog" timestamp="1631997007625">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="407" y="179" key="MultipleFileMergeDialog/0.0.1536.834@0.0.1536.834" timestamp="1631997007625" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1631983565868">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="277" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1631983565868" />
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1631986902857">
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1631997024158">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1631986902857" />
+    <state x="361" y="150" key="Vcs.Push.Dialog.v2/0.0.1536.834@0.0.1536.834" timestamp="1631997024158" />
     <state x="463" y="206" key="git4idea.merge.GitPullDialog" timestamp="1631919437351">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

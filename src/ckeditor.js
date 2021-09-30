@@ -44,6 +44,8 @@ import SpecialCharactersEssentials from '@ckeditor/ckeditor5-special-characters/
 import SpecialCharactersCurrency from '@ckeditor/ckeditor5-special-characters/src/specialcharacterscurrency';
 import SpecialCharactersMathematical from '@ckeditor/ckeditor5-special-characters/src/specialcharactersmathematical';
 
+import './styles.css';
+
 export default class ClassicEditor extends ClassicEditorBase {}
 
 // Plugins to include in the build.

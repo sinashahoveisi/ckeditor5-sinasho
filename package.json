@@ -1,6 +1,6 @@
 {
   "name": "ckeditor5-sinasho",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The custom web component of ckeditor5 for all frontEnd frameworks like react, vue , angular.",
   "keywords": [
     "ckeditor5-build",

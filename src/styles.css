@@ -1,0 +1,12 @@
+.ck[dir=rtl], .ck[dir=rtl] .ck {
+    font-family: var(--font-family)
+}
+
+.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
+    border: #ddd 1px solid;
+}
+
+.ck-editor__editable_inline {
+    min-height: 50px;
+    resize: vertical;
+}
