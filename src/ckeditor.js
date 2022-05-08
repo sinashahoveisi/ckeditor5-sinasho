@@ -26,6 +26,7 @@ import Font from '@ckeditor/ckeditor5-font/src/font';
 import Link from '@ckeditor/ckeditor5-link/src/link';
 import AutoLink from '@ckeditor/ckeditor5-link/src/autolink';
 import List from '@ckeditor/ckeditor5-list/src/list';
+import HtmlEmbed from '@ckeditor/ckeditor5-html-embed/src/htmlembed';
 import ListStyle from '@ckeditor/ckeditor5-list/src/liststyle';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
@@ -62,6 +63,7 @@ ClassicEditor.builtinPlugins = [
 	Heading,
 	Indent,
 	IndentBlock,
+	HtmlEmbed,
 	WordCount,
 	Link,
 	AutoLink,
@@ -109,6 +111,8 @@ ClassicEditor.defaultConfig = {
 			'insertTable',
 			'specialCharacters',
 			'|',
+			'htmlEmbed',
+			'|',
 			'undo',
 			'redo'
 		]
@@ -127,6 +131,9 @@ ClassicEditor.defaultConfig = {
 			21,
 		],
 		supportAllValues: true
+	},
+	htmlEmbed: {
+		showPreviews: true
 	},
 	table: {
 		contentToolbar: [

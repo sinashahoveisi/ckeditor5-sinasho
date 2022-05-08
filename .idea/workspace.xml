@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b23a517-5e72-459e-a777-ca1bb3cf71ca" name="Default Changelist" comment="revert to 29.2.0">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4b23a517-5e72-459e-a777-ca1bb3cf71ca" name="Default Changelist" comment="revert to version 1.0.2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +83,7 @@
       <workItem from="1650917810239" duration="4418000" />
       <workItem from="1650966832338" duration="1590000" />
       <workItem from="1651131959004" duration="1075000" />
+      <workItem from="1651136616348" duration="2342000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1631907279481</created>
@@ -198,7 +197,49 @@
       <option name="project" value="LOCAL" />
       <updated>1651132546816</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="revert to 29.2.0">
+      <created>1651137194834</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1651137194834</updated>
+    </task>
+    <task id="LOCAL-00018" summary="revert to 29.2.0">
+      <created>1651137201921</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1651137201921</updated>
+    </task>
+    <task id="LOCAL-00019" summary="revert to 29.2.0">
+      <created>1651137208146</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1651137208146</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add transition files">
+      <created>1651137457609</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1651137457609</updated>
+    </task>
+    <task id="LOCAL-00021" summary="version 1.0.3 with 31.0.0">
+      <created>1651138316863</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138316863</updated>
+    </task>
+    <task id="LOCAL-00022" summary="revert to version 1.0.2">
+      <created>1651138782254</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1651138782254</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +273,9 @@
     <MESSAGE value="update packages" />
     <MESSAGE value="update packages to version 31.0.0" />
     <MESSAGE value="revert to 29.2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="revert to 29.2.0" />
+    <MESSAGE value="add transition files" />
+    <MESSAGE value="version 1.0.3 with 31.0.0" />
+    <MESSAGE value="revert to version 1.0.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="revert to version 1.0.2" />
   </component>
 </project>
